@@ -1,0 +1,10 @@
+.navbar.navbar-expand-lg.bg-secondary{
+    background-color:rgb(178, 184, 163) !important ;
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color:blue;
+} 
+.list-group{
+    --bs-list-group-bg: transparent;
+}
+
