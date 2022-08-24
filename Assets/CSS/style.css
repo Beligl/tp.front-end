@@ -1,10 +1,22 @@
 .navbar.navbar-expand-lg.bg-secondary{
-    background-color:rgb(178, 184, 163) !important ;
+    background-color:rgb(194, 16, 16)!important
+    }
+.list.group{
+        --bs-list-group-bg:transparent;
+    }
+.list.group{
+    --bs-list-group-border-color:transparent;
 }
-i.fa-brands.fa-linkedin.fa-2xl:hover{
+i.fa-brands.fa-square-facebook.fa-2xl:hover{
     color:blue;
-} 
-.list-group{
-    --bs-list-group-bg: transparent;
+    }
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color:blue
+    }
+i.fa-brands.fa-square-instagram.fa-2xl:hover{
+    color:blue
+}
+i.fa-solid.fa-user.fa-2xl:hover{
+    color: blue;
 }
 
