@@ -45,10 +45,7 @@ body{
     display: flex;
     align-items: center;
 }
-/* list group. icons*/
-li.list-group.item.fa-brands.fa-instagram.fa-2xl
-    ;
-}
+
 .nav__title{
     font-weight: 300;
 }
@@ -72,3 +69,66 @@ li.list-group.item.fa-brands.fa-instagram.fa-2xl
 .nav__close{
     display: var(--show, none);
 }
+
+.container-bar{
+    width: 100%;
+    max-width: 55px;
+    position: fixed;
+    left: 0;
+    top: 25%;
+}
+
+.container-bar a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    position: relative;
+    transition: all 500ms ease;
+    color: #fff;
+}
+
+.container-bar a:hover{
+    background: #1c1c1c;
+}
+
+.container-bar .icon-facebook{
+    background: #3b5998;
+    border-radius: 0px 5px 0px 0px;
+}
+
+.container-bar .icon-linkedin{
+    background: #0e76a8 ;
+    border-radius: 0px 5px 0px 0px;
+}
+
+
+.container-bar .icon-behance{
+    background: blue ;
+    border-radius: 0px 5px 0px 0px;
+}
+
+
+.container-bar .icon-instagram{
+    background: -moz-linear-gradient(144deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 61%, rgba(252,176,69,1) 100%);
+    background: -webkit-linear-gradient(144deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 61%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(144deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 61%, rgba(252,176,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
+    border-radius: 0px 5px 0px 0px;
+}
+
+.container-bar #title{
+    position: fixed;
+    background: "1c1c1c";
+    padding: 6px;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-top: -4px;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+
+
